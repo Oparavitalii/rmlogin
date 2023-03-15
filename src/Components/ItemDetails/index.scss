@@ -1,0 +1,87 @@
+@import "../../Style/mixin.scss";
+
+.details {
+  margin: 20px auto;
+  &__cont {
+    max-width: 1003px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  &__img {
+    @include align-center;
+
+    img {
+      border: 5px solid #f2f2f7;
+      border-radius: 100%;
+      width: 200px;
+      height: 200px;
+      margin-bottom: 16px;
+    }
+  }
+  &__title {
+    font-size: 48px;
+    line-height: 56px;
+    color: #081f32;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  &__label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8e8e93;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  &__item {
+    h3 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #081f32;
+      margin-bottom: 9px;
+    }
+    span {
+      display: block;
+      font-size: 14px;
+      line-height: 20px;
+      color: #6e798c;
+      border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+      margin-bottom: 20px;
+    }
+  }
+}
+.wrapper {
+  max-width: 423px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 530px) {
+  .details {
+    img {
+      width: 150px;
+      height: 150px;
+    }
+    h1 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      color: #081f32;
+      margin-bottom: 2px;
+    }
+    span {
+      display: block;
+      font-size: 14px;
+      line-height: 20px;
+      color: #6e798c;
+      border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "./normalaize.scss";
+@import "./mixin.scss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}

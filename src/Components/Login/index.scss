@@ -1,0 +1,7 @@
+
+@import "../../Style/mixin.scss";
+
+.login__google {
+    height: 100vh;
+    @include align-center;
+}
